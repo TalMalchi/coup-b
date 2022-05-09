@@ -80,7 +80,7 @@ void Assassin::coup(Player &target)
             }
 
             game.player_out(target.name_player); // remove the player from the game
-            game.switch_player();
+            game.switch_player(); //change turn
         }
     }
 }
