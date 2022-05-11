@@ -11,10 +11,6 @@ class Game;
 
 class Player{
 
-   
-        // unsigned int my_coins;
-        // string name_player;
-        // string my_role;
 
     public:
         unsigned int my_coins;
