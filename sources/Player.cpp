@@ -25,7 +25,7 @@ void Player::income(){
     }
     game.check_game_started();
     if(check_coins()){
-        coup(*this); //if player has more than 10 cions, have to do coup  ////////////////// ????????? right syntacx??
+        coup(*this); //if player has more than 10 cions, have to do coup  
     }
     
     else{
@@ -48,7 +48,7 @@ void Player::foreign_aid(){
     }
     if(check_coins()){
         throw "you cant do this action! You have to coup";
-        coup(*this); //if player has more than 10 cions, have to do coup  ////////////////// ????????? right syntacx??
+        coup(*this); //if player has more than 10 cions, have to do coup  
     }
      
         this->last_action="forgein_aid";
